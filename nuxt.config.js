@@ -3,6 +3,13 @@ export default {
   /*
    ** Headers of the page
    */
+   buildModules: [
+    // Simple usage
+    '@nuxtjs/vuetify',
+
+    // With options
+    
+  ],
   head: {
     title: process.env.npm_package_name || '',
     meta: [
